@@ -35,7 +35,6 @@ Data di nascita dello chef: 15/06/1990
 */
 
 
-
 async function getChefBirthday(id) {
     const resRecipe = await fetch(`https://dummyjson.com/recipes/${id}`);
     const recipe = await resRecipe.json();
